@@ -29,7 +29,7 @@ for i in Maps Sounds System Textures; do
 done
 
 if [ ! -f "${XDG_DATA_HOME}/patched" ]; then
-    cp -rf /app/extra/* "${XDG_DATA_HOME}"/
+    cp -rf /app/ut99/* "${XDG_DATA_HOME}"/
     touch "${XDG_DATA_HOME}"/patched
 fi
 
